@@ -135,55 +135,84 @@
 
 
 
-
-  <div class="container-fluid">
-    <div class ="row">
-<nav class="navbar navbar-expand-sm navbar-light bg-light">
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
-        </li>
-       
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="true">
-            Customer Actions
-          </a>
-          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <li><a class="dropdown-item" href="#">Add Customer</a></li>
-            <li><a class="dropdown-item" href="#">Update Customer action</a></li>
-         
-          </ul>
-        </li>
-
-        <li class="nav-item">
-          <a class="nav-link " href="#" tabindex="-1" aria-disabled="false">Support</a>
-        </li>
-
+<nav class="navbar navbar-light" nav-expand-sm style="background-color: #e3f2fd;">
+      <div class="container-fluid">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-          <a class="nav-link " href="#" tabindex="-1" aria-disabled="false">Manage your Profile</a>
-        </li>
-      </ul>
-      <form class="d-flex">
-        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success" type="submit">Search</button>
-      </form>
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="true"
+              >
+                Customer Actions
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li>
+                  <a class="dropdown-item" href="addcustomer.html"
+                    >Add Customer</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="editcustomer.html"
+                    >Edit Customer</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="deletecustomer.html"
+                    >Delete Customer</a
+                  >
+                </li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact Us</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+  
+
+    <div class="col-md-4 col-xl-2 mt-4">
+      <a class="btn btn-info btn-lg" role="button" id="reserveButton"
+        >Edit Customer</a
+      >
     </div>
-  </div>
-</nav>
-</div>
-</div>
-
-
-
-
-
-
-
-
 
    
 
@@ -246,56 +275,12 @@
       </div>
     </div>
 
-  <ul class="list-group">
-
-
-<div class="list-group">
-  <a href="#" class="list-group-item list-group-item-action active" aria-current="true">
-    All Active Customers looking for Single Family Homes
-  </a>
-  <a href="#" class="list-group-item list-group-item-action">John Doe</a>
-  <a href="#" class="list-group-item list-group-item-action">Tracy Smith</a>
-  <a href="#" class="list-group-item list-group-item-action">Monica Taubman</a>
-  <a href="#" class="list-group-item list-group-item-action disabled" tabindex="-1" aria-disabled="true">Mark Sal</a>
-</div>
-
-
-
-<div class="list-group">
-  <a href="#" class="list-group-item list-group-item-action active" aria-current="true">
-    All Active Customers looking for Townhomes
-  </a>
-  <a href="#" class="list-group-item list-group-item-action">John Doe</a>
-  <a href="#" class="list-group-item list-group-item-action">Tracy Smith</a>
-  <a href="#" class="list-group-item list-group-item-action">Monica Taubman</a>
-  <a href="#" class="list-group-item list-group-item-action disabled" tabindex="-1" aria-disabled="true">Mark Sal</a>
-</div>
-
-
-<div class="list-group">
-  <a href="#" class="list-group-item list-group-item-action active" aria-current="true">
-    All Active Customers looking for Condomoniums
-  </a>
-  <a href="#" class="list-group-item list-group-item-action">John Doe</a>
-  <a href="#" class="list-group-item list-group-item-action">Tracy Smith</a>
-  <a href="#" class="list-group-item list-group-item-action">Monica Taubman</a>
-  <a href="#" class="list-group-item list-group-item-action disabled" tabindex="-1" aria-disabled="true">Mark Sal</a>
-</div>
-
-<div class="list-group">
-  <a href="#" class="list-group-item list-group-item-action active" aria-current="true">
-    All Active Customers looking for Vacant Land Lots
-  </a>
-  <a href="#" class="list-group-item list-group-item-action">John Doe</a>
-  <a href="#" class="list-group-item list-group-item-action">Tracy Smith</a>
-  <a href="#" class="list-group-item list-group-item-action">Monica Taubman</a>
-  <a href="#" class="list-group-item list-group-item-action disabled" tabindex="-1" aria-disabled="true">Mark Sal</a>
-</div>
+    
     <footer class="site-footer">
       <div class="container">
         <div class="row">
       
-          <div class="col-6 col-sm-5 text-center text-white">
+          <div class="col-6 col-sm-5 text-center">
             <h5>Social</h5>
             <a
               class="btn btn-social-icon btn-instagram"
@@ -316,15 +301,15 @@
               ><i class="fa fa-youtube"></i
             ></a>
           </div>
-          <div class="col-sm-4 text-center text-white">
-            <a role="button" class="btn btn-link text-white" href="tel:+8131112222"
+          <div class="col-sm-4 text-center">
+            <a role="button" class="btn btn-link" href="tel:+12065551234"
               ><i class="fa fa-phone"></i> 1-813-111-2222</a
             ><br />
             <a
               role="button"
-              class="btn btn-link text-white">
-            <a role="button"     href="mailto:support@recrm.com"
-              ><i class="fa fa-envelope-o"></i> support@recrm.com</a
+              class="btn btn-link"
+              href="mailto:campsites@nucamp.co"
+              ><i class="fa fa-envelope-o"></i> sup[port@recrm.com/a
             >
           </div>
         </div>
